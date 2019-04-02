@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'BungeeInline Regular';
+    src: url('../font/BungeeInline-Regular.ttf'); 
+}
+@font-face {
+    font-family: 'GloriaHallelujah';
+        src: url('../font/GloriaHallelujah.ttf')
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('../font/WorkSans-Regular.ttf');
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#cebola {
+    width: 80%;
+    text-align: center;
+   
+}
+#cebola h1{
+    width: 65%;
+    text-align: center;
+   
+}
+
+#batata{
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    
+}
+
+#cebola h1 {
+    font-family: 'BungeeInline Regular';
+    color: green;
+    font-size:2.5em;
+    transition: color 2.0s;
+    transition: font-size 2.0s;
+    text-align: center;
+    display: flex;
+}
+#cebola h1:hover{
+    color: green;
+    font-size: 2em;
+}
+h1 a{
+    color: red;
+}
+h1 a:hover{
+    color: red;
+}
+h2 {
+    color: green;
+    font-size:2.5em; 
+    transition: color 2.0s;
+    transition: font-size 2.0s;
+    text-align: center;
+    font-weight:bold;
+}
+h2:hover{
+    color: green;
+    font-size: 3em;
+}
+h1 a{
+    color: red;
+}
+h2 a{
+    color: red;
+}
+#Boquinha{
+    background-image: url(../img/Pizzas-e-Vinhos-1180x517.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+    margin: 5px 0px;
+}
+#jovem{
+    background-image: url(../img/braz-pizzaria-01.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#crinl{
+    background-image: url(../img/braz-pizzaria-02.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#briks{
+     background-image: url(../img/braz-pizzaria-04.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#pit{
+     background-image: url(../img/braz-pizzaria-05.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#alca{
+    background-image: url(../img/braz-pizzaria-apaixonados-por-pizza.png);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+     margin: 5px 0px;
+}
+#cebola h1 {
+    margin: 0 auto;
+}
+
+#cascao{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    
+    
+    background-color: #FFF;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center; 
+
+}
+
+#cascao a {
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+#monic{
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#melancia{
+    display: block;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#pipi{
+    background-color: green;
+}
+#las P{
+    font-family: 'WorkSans-Regular';
+}
+
+#teste{
+    background-image: url(../img/braz-pizzaria-apaixonados-por-pizza.png);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#Cardapio h1 {
+    color: red;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}    
+#Cardapio ol li{
+    color: red;
+    font-size: 1.1em;
+    font-family: 'WorkSans-Regular';
+    
+}
+#Cardapio p{
+    color: green;
+    font-family: 'WorkSans-Regular';
+}
+#Cardapio h2{
+    color:green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+
+
+#imagem{
+    background-image: url(../img/porcoes.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#foto{
+    background-image: url(../img/porcoes2.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;           
+}
+#Porcoes h2{
+    color:green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+#Porcoes ul li{
+    color: red;
+    font-size: 1.1em;
+    font-family: 'WorkSans-Regular';
+}
+#Porcoes p{
+    color: darkgreen;
+    font-family: 'WorkSans-Regular';
+}
+#Bebidas h1{
+    color: green;
+    text-align: center;
+    font-size: 2.0em;
+    font-family: 'GloriaHallelujah';
+}
+#Bebidas ul li{
+    color: red;
+    font-size: 1.1em;
+    font-family: 'WorkSans-Regular';
+}
+#suco{
+    background-image: url(../img/suco.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#refri{
+    background-image: url(../img/refrigerante-1519671522034_v2_900x506.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#agua{
+    background-image: url(../img/imagem-blog-o-que-e-agua-mineral-1.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+#bebida{
+    background-image: url(../img/bebidas.jpg);
+    background-size: cover;
+    background-position: left;
+    padding: 150px 0px 0px 150px;
+    margin: 5px 0px;
+}
+
+
+body{
+    background-color:r;
+}
+#cascao{
+    width: 100%;
+    background-color: whitesmoke;
+    top: 103px;
+    left: -100%;
+    position: absolute;
+    transition: 0.7s left ease;
+}
+.mostrar{
+    left: 0px !important;
+}
+#pipoca{
+   
+    font-family:'GloriaHallelujah';
+    text-align: center;
+    font-size: 1.5em;
+}
+#dog{
+    background-image: url(../img/logo%20com%20n%C3%BAmero.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+    margin: 5px 0px;
+}
+#contato{
+    text-align: center;
+    color: red;
+    font-family:'GloriaHallelujah';
+    font-size:1.5em;
+}
+
